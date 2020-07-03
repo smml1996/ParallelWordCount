@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stefaniemuroyalei/Documents/WordCount/PrefixTree.h
+string
+-
+map
+-
+mutex
+-
+unordered_map
+-
+
+/Users/stefaniemuroyalei/Documents/WordCount/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+stdlib.h
+-
+thread
+-
+mutex
+-
+queue
+-
+map
+-
+PrefixTree.h
+/Users/stefaniemuroyalei/Documents/WordCount/PrefixTree.h
+
