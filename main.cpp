@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <stdlib.h>
+#include <cstdlib>
 #include <thread>
 #include <mutex>
 #include <queue>
@@ -156,9 +156,10 @@ int main() {
     //build_archivo();
 
     fileSize = getFileSize();
+    cout << fileSize << endl;
     vector<thread> threads;
 
-    for(int i = 0; i < 8; i++){
+    for(int i = 0; i < 6; i++){
         threads.push_back(thread(run_thread));
     }
 

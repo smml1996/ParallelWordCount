@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/WordCount.dir/main.cpp.o CMakeFiles/WordCount.dir/PrefixTree.cpp.o  -o WordCount 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/WordCount.dir/main.cpp.o CMakeFiles/WordCount.dir/PrefixTree.cpp.o CMakeFiles/WordCount.dir/Node.cpp.o  -o WordCount 

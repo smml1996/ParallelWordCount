@@ -3,4 +3,4 @@ project(WordCount)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(WordCount main.cpp PrefixTree.cpp PrefixTree.h)
+add_executable(WordCount main.cpp PrefixTree.cpp PrefixTree.h Node.cpp Node.h)

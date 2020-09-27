@@ -6,17 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/stefaniemuroyalei/Documents/WordCount/PrefixTree.h
-string
--
-map
--
-mutex
--
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/Node.h
 unordered_map
 -
 
-/Users/stefaniemuroyalei/Documents/WordCount/main.cpp
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/PrefixTree.cpp
+PrefixTree.h
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/PrefixTree.h
+iostream
+-
+
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/PrefixTree.h
+map
+-
+string
+-
+Node.h
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/Node.h
+
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/main.cpp
 iostream
 -
 fstream
@@ -25,7 +33,7 @@ string
 -
 vector
 -
-stdlib.h
+cstdlib
 -
 thread
 -
@@ -36,5 +44,5 @@ queue
 map
 -
 PrefixTree.h
-/Users/stefaniemuroyalei/Documents/WordCount/PrefixTree.h
+/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/PrefixTree.h
 

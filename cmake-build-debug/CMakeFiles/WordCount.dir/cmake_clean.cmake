@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/WordCount.dir/Node.cpp.o"
   "CMakeFiles/WordCount.dir/PrefixTree.cpp.o"
   "CMakeFiles/WordCount.dir/main.cpp.o"
   "WordCount"

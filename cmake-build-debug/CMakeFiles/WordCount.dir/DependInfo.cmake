@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/stefaniemuroyalei/Documents/WordCount/PrefixTree.cpp" "/Users/stefaniemuroyalei/Documents/WordCount/cmake-build-debug/CMakeFiles/WordCount.dir/PrefixTree.cpp.o"
-  "/Users/stefaniemuroyalei/Documents/WordCount/main.cpp" "/Users/stefaniemuroyalei/Documents/WordCount/cmake-build-debug/CMakeFiles/WordCount.dir/main.cpp.o"
+  "/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/Node.cpp" "/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/cmake-build-debug/CMakeFiles/WordCount.dir/Node.cpp.o"
+  "/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/PrefixTree.cpp" "/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/cmake-build-debug/CMakeFiles/WordCount.dir/PrefixTree.cpp.o"
+  "/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/main.cpp" "/Users/stefaniemuroyalei/Documents/cloud/ParallelWordCount/cmake-build-debug/CMakeFiles/WordCount.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
