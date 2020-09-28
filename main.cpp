@@ -7,6 +7,7 @@
 #include <mutex>
 #include <queue>
 #include <map>
+#include <chrono>
 #include "PrefixTree.h"
 using namespace  std;
 
@@ -39,7 +40,7 @@ void build_archivo(){
 
     file.close();
 
-    ofstream archivo("../archivo.txt");
+    ofstream archivo("../archivo_grande.txt");
     long fileCurrentSize = 0;
     const long TARGET =  5000000000;
     int wordIndex;
@@ -153,12 +154,12 @@ int main() {
 
 
 
-    //build_archivo();
-
+    build_archivo();
+    /*
     fileSize = getFileSize();
     cout << fileSize << endl;
     vector<thread> threads;
-
+    auto t1 = std::chrono::high_resolution_clock::now();
     for(int i = 0; i < 6; i++){
         threads.push_back(thread(run_thread));
     }
@@ -174,6 +175,10 @@ int main() {
         th1.join();
 
     writeAnswer();
+     auto t2 = std::chrono::high_resolution_clock::now();
+     auto duration = std::chrono::duration_cast<std::chrono::microseconds>( t2 - t1 ).count();
+     cout << "Tiempo de ejecucion: " << duration << endl;;
+     */
 
     return 0;
 }
